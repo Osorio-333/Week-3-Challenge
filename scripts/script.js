@@ -25,7 +25,7 @@ function generatePassword () {
 //password criteria
   var lowercaseCharactersChoice = confirm("Would you like to add lowercase characters?");
   var uppercaseCharactersChoice = confirm("Wanna add some uppercase characters?");
-  var numericalCharactersChoice = confirm("Would you like to see some numbers? (KRAVCHENKO)");
+  var numericalCharactersChoice = confirm("Would you like to see some numbers?");
   var specialCharacterChoice = confirm("Would you like some special characters?");
   
 //If statement incase of length not meeting criteria
@@ -38,7 +38,7 @@ else if (lowercaseCharactersChoice === false && uppercaseCharactersChoice === fa
   alert("You must choose at least one of the password criteria");
   var lowercaseCharactersChoice = confirm("Would you like to add lowercase characters?");
   var uppercaseCharactersChoice = confirm("Wanna add some uppercase characters?");
-  var numericalCharactersChoice = confirm("Would you like to see some numbers? (KRAVCHENKO)");
+  var numericalCharactersChoice = confirm("Would you like to see some numbers? ");
   var specialCharacterChoice = confirm("Would you like some special characters?");
 }
 
